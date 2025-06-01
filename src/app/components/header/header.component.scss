@@ -1,0 +1,31 @@
+.site-header{
+    background: rgb(208, 163, 163);
+    padding: 64px 160px 64px 160px;
+}
+
+.site-header a, p, button{
+    font-family: 'Overpass', sans-serif;
+}
+
+.site-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-left{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.nav-menu{
+    width: 40%;
+    display: flex;
+    gap: 0.3rem;
+}
+
+.nav-right{
+    gap: 10px;
+}
+
