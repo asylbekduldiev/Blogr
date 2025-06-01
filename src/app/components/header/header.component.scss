@@ -1,5 +1,10 @@
 .site-header{
-    background: rgb(208, 163, 163);
+    background-image: url('/images/bg-pattern-intro-desktop.svg'), linear-gradient(to right, var(--very-light-red), var(--light-red));;
+    background-position: 25% 50%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-bottom-left-radius: 80px;
+
     padding: 64px 160px 64px 160px;
 }
 
@@ -16,7 +21,9 @@
 .nav-left{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 100px;
+    color: var(--white);
 }
 
 .nav-menu{
@@ -28,6 +35,7 @@
 .nav-right{
     display: flex;
     gap: 20px;
+    color: var(--white);
 }
 
 .nav-tab{
@@ -36,16 +44,26 @@
     gap: 4px;
 }
 
+.nav-tab:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .logo,
 .login{
     display: flex;
     align-items: center;
 }
 
+.login:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .sign-btn,
 .sfr-btn{
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: 10px 24px;
     font-weight: 600;
     transition: 0.5s;
     background-color: var(--white);
@@ -62,10 +80,10 @@
 
 .lm-btn{
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: 10px 24px;
     font-weight: 600;
     transition: 0.5s;
-    background-color: var(--very-light-red-cta);
+    background-color: var(--light-red-cta);
     color: var(--white);
     border: 1px solid white;
 }
@@ -87,7 +105,7 @@
 .center-btn{
     display: flex;
     margin-top: 24px;
-    gap: 10px;
+    gap: 15px;
 }
 
 .center-item h1{
